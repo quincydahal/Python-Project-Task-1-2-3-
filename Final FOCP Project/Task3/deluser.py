@@ -1,6 +1,6 @@
+import codecs
+import getpass
 def del_user():
-    import codecs
-    import getpass
 
     password_file_path = "passwd.txt"  #to store user information in format
 
@@ -28,3 +28,4 @@ def del_user():
             print("User deleted successfully.")   
     
     delete_user()
+del_user()

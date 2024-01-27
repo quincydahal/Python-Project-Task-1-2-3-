@@ -1,6 +1,6 @@
+import codecs
+import getpass
 def login():
-    import codecs
-    import getpass
 
     password_file_path = "passwd.txt"  #to store user information in format
 
@@ -28,3 +28,4 @@ def login():
         print("Login failed. Invalid username or password.")        
                     
     login_user()
+login()

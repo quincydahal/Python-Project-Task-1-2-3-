@@ -1,6 +1,6 @@
+import codecs
+import getpass
 def change():
-    import codecs
-    import getpass
 
     password_file_path = "passwd.txt"  #to store user information in format
 
@@ -46,4 +46,5 @@ def change():
                     return
         print("Error: Invalid Username")      
         
-    change_password()  
+    change_password() 
+change() 

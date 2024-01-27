@@ -1,6 +1,6 @@
+import codecs
+import getpass
 def user_add():
-    import codecs
-    import getpass
 
     password_file_path = "passwd.txt"  #to store user information in format
 
@@ -34,4 +34,5 @@ def user_add():
         print("User added successfully.")
         
     add_user()
+user_add()
         
